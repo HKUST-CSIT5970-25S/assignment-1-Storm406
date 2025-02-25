@@ -53,9 +53,9 @@
     | Connection                | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
     | N. Virginia - Oregon      | 22.3 Mbits/sec | 77.294 ms|
-    | N. Virginia - N. Virginia | 4.96 Gbits/sec | 0.140  ms|
-    | Oregon - Oregon           | 4.93 Gbits/sec | 0.203 ms|
+    | N. Virginia - N. Virginia | 4.03 Gbits/sec | 0.140  ms|
+    | Oregon - Oregon           | 4.38 Gbits/sec | 0.203 ms|
 
-    > Network performance between different region uses public ip address, therefore it has significantly lower bandwidth and higher RTT. Same region were tested with private ip, although public ip did not have much difference.
+    > Network performance between different region uses public ip address, therefore it has significantly lower bandwidth and higher RTT. Same region were tested with public ip but they don't have to route to different region, their result did not have much difference.
  
     > Region: US East (N. Virginia), US West (Oregon). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI. All instances are `c5.large`. Note: Use public IP address when using iPerf within the same region.
