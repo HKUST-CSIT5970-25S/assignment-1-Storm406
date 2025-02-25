@@ -53,8 +53,8 @@
     | Connection                | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
     | N. Virginia - Oregon      | 22.3 Mbits/sec | 77.294 ms|
-    | N. Virginia - N. Virginia | 4.03 Gbits/sec | 0.140  ms|
-    | Oregon - Oregon           | 4.38 Gbits/sec | 0.203 ms|
+    | N. Virginia - N. Virginia | 4.03 Gbits/sec | 0.260  ms|
+    | Oregon - Oregon           | 4.38 Gbits/sec | 0.305 ms|
 
     > Network performance between different region uses public ip address, therefore it has significantly lower bandwidth and higher RTT. Same region were tested with public ip but they don't have to route to different region, their result did not have much difference.
  
